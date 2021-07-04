@@ -15,4 +15,13 @@ G.SEED = 0;
 G.GAME_MODE = 0;
 
 G.GAMEPADS[0] = 0;
+G.P1GAMEPAD = 0;
+G.P2GAMEPAD = 0;
 
+
+
+function DebugMsg(_string) {
+	if (!G.DEBUG_MODE)
+		exit;
+	show_debug_message(_string);
+}
