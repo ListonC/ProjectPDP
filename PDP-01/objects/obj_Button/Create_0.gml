@@ -2,7 +2,7 @@
 
 sprite_index = noone; // sprite is only for staging purposes.
 
-MyFont = fnt_Gamer_14;
+MyFont = fnt_Button16;
 MyScript = noone;
 MyTitle = "";
 xSize = 1;
